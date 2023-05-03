@@ -1,0 +1,74 @@
+*{
+    font-family: centuri gothics;
+}
+.button{
+    margin: 50px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 1s;
+    float: left;
+
+}
+.button1{
+border-radius: 100px 30px;
+background-image: linear-gradient(to right, #34b851,#3e1772, white);
+color: gold;
+
+}
+.button1:hover{
+    box-shadow: 10px 15px 25px blueviolet;
+    clear: both;
+}
+.button2{
+background-image: linear-gradient(to left, #34b851,#3e1772);
+border-radius: 20px 20px;
+color:black;
+    
+}
+.button2:hover{
+    box-shadow: 1px 3px 10px goldenrod;
+}
+.button3{
+   background-image: conic-gradient(from 45deg at 60% 45%, red, blue, green, yellow);
+    /* border-radius: 10px 50px; */
+    color: white;
+
+}
+.button3:hover{
+    box-shadow: 5px 10px 15px lightskyblue;
+}
+.button4{
+/* background-image: radial-gradient(circle, red,white, blue, green); */
+color: darkblue;
+}
+.button4:hover{
+    box-shadow: 10px 5px 4px green;
+    background-image: radial-gradient(circle, red,white, blue, green);
+}
+.button5{
+    background-image: conic-gradient(green 45deg, yellow 90deg, red 200deg);
+    color: black;
+
+border-radius: 10px 20px 30px 50px;}
+.button5:hover{
+    box-shadow: 10px 20px 30px darkblue ;
+}
+.button6{
+    background-image: linear-gradient(to left, green, yellow, pink, blue, green, white);
+    color: red;
+    border-radius: 50% 50% 90% 80%;
+}
+.button6:hover{
+    box-shadow: 5px 10px 5px brown;
+}
+.button7{
+    background-image: radial-gradient(at 60% 45%, red, blue, green);
+    color: #34b851;
+    border-radius: 50%;
+}
+.button7:hover{
+    box-shadow: 1px 3px 10px #34b851;
+}
